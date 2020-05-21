@@ -20,7 +20,7 @@
 ## Description
 
 * The aim of this project was to create selfie filters using facial keypoint detection.
-* I have take the data from Kaggle consisting of 7049 images with 15 keypoints per image. <br>
+* I have taken the data from Kaggle consisting of 7049 images with 15 keypoints per image. <br>
 #### <b> Process </b>
 * Using a Convolutional Neural Network Architecture inspired by the <i> NaimishNet </i> we predict the facial keypoints and save the model. The current model has a Mean Absolute Deviation of 1.28.
 * Then with OpenCV we access our webcam and use HAAR Cascade Frontal Face classifier to detect the face in the frame.
@@ -31,6 +31,7 @@
 ![](Result.png)
 
 ## Credits
+* Data Source: https://www.kaggle.com/c/facial-keypoints-detection/data
 * CNN Architecture: https://arxiv.org/pdf/1710.00977.pdf
 * HAAR Cascade Classifier Tutorial: https://www.youtube.com/watch?v=LopYA64KmdE
 

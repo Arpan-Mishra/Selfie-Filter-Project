@@ -26,7 +26,7 @@
 * Then with OpenCV we access our webcam and use HAAR Cascade Frontal Face classifier to detect the face in the frame.
 * The detected face is pre-processed and fed into our saved model to get the keypoint coordinates.
 * Using these keypoint coordinates we place our filter images. Here we have used 4 keypoints to achieve our desired result.
-* The edited image is then shown in the Filter frame.
+* The edited image is then shown in the Filter frame [Left]. The detected keypoints can be scene in the Keypoint Detector frame [Right].
 
 ![](Result.png)
 
